@@ -1,6 +1,5 @@
 @media screen and (min-width: 768px) {
   
-  /* Show nav as flex and hamburger hidden */
   nav {
     display: flex !important;
     position: static;
@@ -24,25 +23,21 @@
     display: none;
   }
 
-  /* Grid with multiple columns */
   .container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
   
-  /* Center main with larger max-width */
   main {
     max-width: 900px;
   }
 }
 
-/* Colors */
 :root {
   --dark-purple: #3d0c5a;
   --white: #fff;
   --caption-purple: #3d0c5a;
 }
 
-/* Header */
 header {
   background-color: var(--dark-purple);
   color: var(--white);
@@ -71,7 +66,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Main */
 main {
   max-width: 960px;
   margin: 30px auto;
@@ -85,7 +79,6 @@ main h1 {
   margin-bottom: 25px;
 }
 
-/* Grid container */
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -116,7 +109,6 @@ figcaption {
   font-size: 1rem;
 }
 
-/* Footer */
 footer {
   background-color: var(--dark-purple);
   color: var(--white);
